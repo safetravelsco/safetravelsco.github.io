@@ -1,9 +1,10 @@
 body {
 	background-color: black;
 }
-h1 {
+h1, h4, p {
 	color: gold;
 }
-p {
-	color: pink;
-}
+ul { 
+ 	color: cyan;
+ }
+
