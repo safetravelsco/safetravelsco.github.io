@@ -1,0 +1,78 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body {
+	background-color: rgb(200,200,200);
+}
+#header {
+	height: 80px;
+	color:#fff;
+	background-color: rgb(50,50,50);
+}
+#heroimg {
+	background: url(../images/lscape.jpg);
+	background-size: cover;
+	background-position: 0px -450px;
+	height: 600px;
+	text-align:center;
+	color: rgba(255,255,255,.6);
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size:80px;
+	line-height: 400px;
+}
+#slogan {
+	font-family: Helvetica, san-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: -110px;
+}
+#mission {
+	font-family: Helvetica, san-serif;
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 25px;
+}
+h4 {
+	padding-top: 20px;
+	text-align: center;
+	font-family: Helvetica, san-serif;
+	font-size: 18px;
+	text-decoration: underline;
+}
+ul {
+	text-align: center;
+	font-family: Helvetica, san-serif;
+	line-height: 200%;
+}
+#footer {
+	margin-top:30px;
+	height: 50px;
+	color:#fff;
+	background-color: rgb(50,50,50);
+	line-height: 50px;
+	padding-left: 20px;
+	font-family: Helvetica, san-serif;
+	font-size: 15px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Helvetica, san-serif;
+}
+a.footnav:link {
+	color:#F9CC83;
+}
+a.footnav:hover {
+	color:#FA7283;
+}
+a.tournav:link {
+	color:#B83B8C
+}
+a.tournav:hover {
+	color:#297FC4
+}
