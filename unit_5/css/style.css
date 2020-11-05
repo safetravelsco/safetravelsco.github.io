@@ -1,0 +1,127 @@
+/*how to know when to use em vs px*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+	background-color: rgb(200,200,200);
+}
+nav {
+	background-color: #e8c66a;
+	width:100%;
+}
+header {
+	color:#fff;
+	/*background-color: rgb(50,50,50);*/
+}
+section {
+	background-color: #ffe2b8;
+	padding: 2em 0;
+	margin: 0 auto;
+	width: 90%;
+}
+article {
+	background-color: #e89c6c;
+}
+footer {
+	margin:20px auto 0 auto;
+	height: 50px;
+	color:#fff;
+	background-color: #ff957e;
+	/*background-color: rgb(50,50,50);*/
+	line-height: 50px;
+	padding-left: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 15px;
+	letter-spacing: .05em;
+}
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:80px;
+	line-height: 400px;
+	letter-spacing: .1em;
+}
+h4 {
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 18px;
+	letter-spacing: .1em;
+	text-decoration: underline;
+}
+ul {
+	text-align: center;
+	line-height: 200%;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 18px;
+	letter-spacing: .05em;
+}
+#links {
+	/*background-color: rgb(50,50,50);*/
+	height: 50px;
+}
+#heroimg {
+	background: url(../images/lscape.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -450px;
+	height: 600px;
+	text-align:center;
+	color: rgba(255,255,255,.6);
+}
+#slogan {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: .05em;
+	margin-top: -110px;
+}
+#mission {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+#search {
+	margin: 20px auto;
+	height:50px;
+	width: 400px;
+	border: 2px black solid;
+}
+#tour_types {
+	width:300px;
+	height:300px;
+}
+#domestic {
+	width:300px;
+	height:300px;
+}
+#international {
+	width:300px;
+	height:300px;
+}
+a.footnav:link {
+	color:#F9CC83;
+}
+a.footnav:hover {
+	color:#FA7283;
+}
+a.tournav:link {
+	color:#B83B8C
+}
+a.tournav:hover {
+	color:#297FC4
+}
+
+
