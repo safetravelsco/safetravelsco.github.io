@@ -1,0 +1,277 @@
+/*how to know when to use em vs px*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   /*box-sizing: border-box;*/
+}
+body {
+	background-color: rgb(200,200,200);
+	font-size:15px;
+}
+nav {
+	background-color: rgba(255,255,255,0.5);
+	width:100%;
+}
+header {
+	color:#fff;
+	/*background-color: rgb(50,50,50);*/
+}
+/*section {
+	background-color: #ffe2b8;
+	padding: 2em 0;
+	margin: 0 auto;
+	width: 90%;
+	float: left;
+}
+article {
+	background-color: #e89c6c;
+}*/
+footer {
+	margin:1.2em auto 0 auto;
+	bottom: 0;
+	height: 3.3em;
+	color:#fff;
+	background-color: rgb(50,50,50);
+	line-height: 3.3em;
+	padding-left: 1.2em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1em;
+	letter-spacing: .05em;
+}
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:5.3em;
+	line-height: 400px;
+	letter-spacing: .1em;
+	color: rgb(240,240,240);
+	text-shadow: 2px 2px 3px #000;
+}
+h3 {
+	color: #fff;
+	padding-bottom: 1.2em;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.6em;
+	letter-spacing: .1em;
+	text-shadow: 2px 2px 2px #000;
+	/*text-decoration: underline;*/
+}
+/*h4 {
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.1em;
+	letter-spacing: .1em;
+	text-decoration: underline;
+}*/
+ul {
+	text-align: center;
+	line-height: 200%;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+	letter-spacing: .05em;
+}
+img {
+	padding-left:1em;
+	padding-top:.3em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#links {
+	background-color: rgb(50,50,50);
+	height: 4em;
+	line-height: 4em;
+}
+.bannernav {
+	padding-right: 2em;
+	float: right;
+	color: #fff;
+}
+#heroimg {
+	background: url(../images/lscape.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 0px -450px;*/
+	background-position: bottom;
+	min-height: 40em;
+	text-align:center;
+	color: rgb(180,180,180);
+}
+#slogan {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: .05em;
+	margin-top: -110px;
+	color: rgb(240,240,240);
+	text-shadow: 2px 2px 2px #000;
+}
+#mission {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 3.3em;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	color: rgb(240,240,240);
+	text-shadow: 2px 2px 2px #000;
+}
+/*#fillbox {
+	margin: 20px auto;
+	height:50px;
+	width: 400px; /*400px;
+}*/
+#search {
+	margin:20px auto;
+	height:50px;
+	width: 300px;
+	text-align: left;
+	line-height:50px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	padding-left: 10px;
+}
+#columns {
+	/*padding: 2px;*/
+	/*width: 90%; 1106px;*/
+	width: 83%;
+	margin: 70px 16.25%;
+	/*width: 32.33%;
+	margin: .5%;*/
+}
+#tour_types {
+	/*background-color: rgba(232,8,150,0.2);*/
+	background: url(../images/hiking.jpg);
+	/*border: 1px solid black;*/
+	padding: 1%;
+	float: left;
+	width: 22.33%;/*300px;*/
+	height:11.7em;
+	margin-right:5%;
+	/*width:300px;
+	height:300px;*/
+}
+#domestic {
+	background-color: rgba(2,198,106,0.2);
+	background: url(../images/yellowstone.jpg);
+	/*border: 1px solid black;*/
+	padding:1%;
+	float: left;
+	width: 22.33%;/*300px;*/
+	height:11.7em;
+	margin-right:5%;
+	/*width:300px;
+	height:300px;*/
+}
+#international {
+	background-color: rgba(232,198,6,0.2);
+	background: url(../images/eiffel.jpg);
+	background-repeat: no-repeat;
+	/*border: 1px solid black;*/
+	padding: 1%;
+	float: left;
+	width: 22.33%;/*300px;*/
+	height:11.7em;
+	/*width:300px;
+	height:300px;*/
+}
+a.bannernav:hover {
+	color:#e8c66a;
+}
+a.footnav:link {
+	color:#F9CC83;
+}
+a.footnav:hover {
+	color:#d4399e;
+}
+a.tours:link {
+	color:#fff;
+	background-color: rgba(0,0,0,0.4);
+	text-shadow: 2px 2px #000;
+	padding:.3em;
+}
+a.tours:visited {
+	color:#fff;
+	background-color: rgba(0,0,0,0.4);
+	text-shadow: 2px 2px #000;
+	padding:.3em;
+
+}
+a.tours:hover {
+	color:#d4399e;
+	background-color: rgba(0,0,0,0.4);
+	text-shadow: 2px 2px #000;
+	padding:.3em;
+}
+@media only screen and (max-width: 1100px) {
+	#columns {
+		width: 23.2em;
+		margin: 50px auto;
+	}
+	#tour_types {
+		float:none;
+		padding:2%;
+		width:23.3em;
+		background-repeat: no-repeat;
+	}
+	#domestic {
+		float:none;
+		padding:2%;
+		width:23.3em;
+		margin-top:1.2em;
+		background-repeat: no-repeat;
+	}
+	#international {
+		float:none;
+		padding:2%;
+		width:23.3em;
+		margin-top:1.2em;
+		background-repeat: no-repeat;
+	}
+}
+@media only screen and (max-width: 580px) {
+	h1 {
+		font-size:4em;
+		margin:auto;
+	}
+	#slogan {
+		font-size: 1.2em;
+	}
+	#mission {
+		font-size: 1em;
+	}
+	.bannernav {
+		padding-right: .75em;
+	}
+}
+@media only screen and (max-width: 440px) {
+	h1 {
+		font-size:4em;
+		margin:auto;
+	}
+}
+@media only screen and (max-width: 378px) {
+	h1 {
+		font-size:2em;
+		margin:auto;
+	}
+}
+@media only screen and (max-width: 300px) {
+	#search {
+		width:13.3em;
+	}
+}
